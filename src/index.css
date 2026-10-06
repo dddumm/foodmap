@@ -1,0 +1,28 @@
+:root {
+  --pink: #ff6b6b;
+  --pink-dark: #fa5252;
+  --blue: #4dabf7;
+  --ink: #2d2d2d;
+  --muted: #868e96;
+  --line: #e9ecef;
+  --bg: #f8f9fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
